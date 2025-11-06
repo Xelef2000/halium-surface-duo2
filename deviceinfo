@@ -22,7 +22,6 @@ deviceinfo_bootimg_qcdt="false"
 deviceinfo_bootimg_header_version="4"
 # Needed for AVB footer, fine as long as it is less or the same
 deviceinfo_bootimg_partition_size="100663296"
-deviceinfo_bootimg_partition_size="100663296"
 deviceinfo_flash_pagesize="4096"
 deviceinfo_flash_offset_base="0x00000000"
 deviceinfo_flash_offset_kernel="0x00008000"
@@ -32,10 +31,5 @@ deviceinfo_flash_offset_dtb="0x01f00000"
 deviceinfo_bootimg_os_version="11.0.0"
 deviceinfo_bootimg_os_patch_level="2024-10"
 deviceinfo_ubuntu_touch_release="24.04-1.x"
-# deviceinfo_kernel_make_args=" \
-#     HOSTCC=prebuilts/clang/host/linux-x86/clang-r416183b/bin/clang \
-#     HOSTAR=prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8/bin/x86_64-linux-ar \
-#     HOSTLD=prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8/bin/x86_64-linux-ld \
-# "
 
 deviceinfo_kernel_make_args="CONFIG_BUILD_ARM64_DT_OVERLAY=y"
