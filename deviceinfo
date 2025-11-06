@@ -31,5 +31,5 @@ deviceinfo_flash_offset_dtb="0x01f00000"
 deviceinfo_bootimg_os_version="11.0.0"
 deviceinfo_bootimg_os_patch_level="2024-10"
 deviceinfo_ubuntu_touch_release="24.04-1.x"
-
+deviceinfo_system_partition_size="5368709120"
 deviceinfo_kernel_make_args="CONFIG_BUILD_ARM64_DT_OVERLAY=y"
